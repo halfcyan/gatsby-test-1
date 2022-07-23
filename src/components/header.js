@@ -1,5 +1,5 @@
-import * as React from "react"
-import PropTypes from "prop-types"
+import * as React from "react";
+import PropTypes from "prop-types";
 
 const Header = (_Header) => (
   <header>
@@ -10,14 +10,14 @@ const Header = (_Header) => (
       Blog
     </a>
   </header>
-)
+);
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;
